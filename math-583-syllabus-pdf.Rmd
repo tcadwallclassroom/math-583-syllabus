@@ -1,0 +1,127 @@
+---
+title: "Math 583 - Studies in Statistics"
+author: "Todd CadwalladerOlsker"
+date: "Section 1, Spring 2022, Schedule #19010"
+mainfont: Libertinus Sans
+output: pdf_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, dev="cairo_pdf")
+library(rmdformats)
+```
+
+	
+"One of the first things taught in introductory statistics textbooks is that correlation is not causation. It is also one of the first things forgotten."
+-- Thomas Sowell
+
+
+
+**Course Information**
+
+* Course Times: TuTh 4:00-5:15pm
+* Professor: Todd CadwalladerOlsker 
+* Email: <tcadwall@fullerton.edu>
+* Office Hours: TuTh 2:15-3:45pm, or by appointment.
+
+		
+* For the first two weeks, we will meet on Zoom (Meeting ID: 89585149305).
+* When we are able to meet in-person, we will meet in MH-390. Please bring a laptop, as we will be working with statistical software extensively. If you cannot bring a laptop to class, let me know and I will make arrangements for a laptop to be available for your use in class.
+	
+**Textbooks:** The main course material will be included in the course packets, but I will be referencing the following texts:
+
+* [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) by Mine Çetinkaya-Rundel and Johanna Hardin
+* [Advanced High School Statistics](https://www.openintro.org/book/ahss/) by David Diez, Mine Çetinkaya-Rundel, Leah Dorazio, and Christopher D Barr
+* [Statistical Inference For Everyone](https://github.com/bblais/Statistical-Inference-for-Everyone) by Brian Blais
+
+**Suggested Websites:**
+
+* [High School Statistics Common Core Standards](http://www.corestandards.org/Math/Content/HSS/introduction/)
+* [Guidelines for Assessment and Instruction in Statistics Education (GAISE)](https://www.amstat.org/asa/education/Guidelines-for-Assessment-and-Instruction-in-Statistics-Education-Reports.aspx)
+* [Tutorial: Getting Started with R and RStudio](https://www.amstat.org/asa/education/Guidelines-for-Assessment-and-Instruction-in-Statistics-Education-Reports.aspx)
+* [Another R tutorial](https://www.w3schools.com/r/default.asp)
+
+	\bigskip
+	
+**Course Description** Computer-based course designed to teach appropriate strategies and tools to effectively address problems in statistics. Project design, exploratory data analysis and interpretation, and effective communication of results.
+	
+*Learning Goals*
+	
+By the end of this course, you will
+
+* have a deep understanding of probability and statistics,
+* be able to effectively communicate and explain statistical ideas, 
+* have the necessary knowledge ans skills to teach an AP Statistics or introductory statistics course,
+* know how to use computer software to compute and communicate statistics, and
+* be able to address issues of diversity, inclusion, and equity in statistics and their applications.
+
+**Assignments and Exams:** Assignments and exams will be announced in class on a regular basis. If for any reason you cannot attend class, it is your responsibility to ask me or your classmates if any assignments or exams were announced.
+	
+	
+*Assignment Packets (20\%):* The material of the course is organized into “packets”, which will contain assignments on a regular basis. Assignments will usually consist of small projects to be completed in R.
+	
+*Midterm Exams (30\% each):* There will be two midterm exams, tentatively scheduled in the class calendar. Any changes to these dates will be announced in class at least one week in advance.
+	
+*Final Project (20\%):* The final project will require you to design, conduct, and report an empirical study. Details will be provided on the course Canvas page.
+	
+*Make-up Policy:* Exams can be made up **ONLY** in the case of an emergency, and \textbf{ONLY} if you request a make up exam **before** the scheduled time of the exam.
+
+**Evaluation** Final course grades will be based upon the percentage of total points earned throughout the course. Grades will be distributed according to the following (after rounding to the nearest percent):
+	
+| A+    |   A |  A- | B+ | B | B- | C+ | C | D | F |
+|----|---|----|----|---|----|----|---|---|---|
+98-100% | 92-97% | 90-91% | 87-89%| 82-86% | 80-81%| 77-79%| 70-76% |60-69%| 0-59%|
+	
+	
+**Attendance Policy:** Students who miss an excessive number of classes before the drop deadline may be dropped from the course. However, if you intend to drop this class, it is your responsibility to do so. Attendance will not be taken on a regular basis, however, failure to attend class will almost certainly result in a lower grade as you will miss lectures, class discussion, and quizzes.
+	
+**Academic Integrity and Online Tools:** I encourage you to use the resources listed in the syllabus and posted to Canvas.  Before using other resources that you find online, I encourage you to discuss them with me. The use of sites, including but not limited to Chegg and Course Hero, which provide solutions to homework problems, exam questions, etc., is explicitly prohibited in this course and is considered academic dishonesty.
+	
+Collaborating has been made easier by the many tools available to use on the internet (e.g. Discord, Zoom, Microsoft Teams). I encourage you to use these tools to work together, to form study groups, etc. However, any sharing of assignments (even if just to help) or using these communication tools for unauthorized collaboration is considered academic dishonesty. Unless otherwise explicitly stated by the instructor, assignments, and examinations must be completed on your own.
+	
+
+	
+**Course Communication:** All course announcements are sent through Canvas, which only uses CSUF email accounts. Therefore, you must check your CSUF email on a regular basis (several times a week) for the duration of the course. If you wish to contact me, please email me directly at <tcadwall@fullerton.edu>; **do not send me messages through Canvas**. Emails will usually be answered by the next weekday. Emails should contain the words ``Math 583'' in the subject line.
+	
+**Important Dates:**
+
+* Feb 7: Last day for students to ADD with a permit.  All permits expire at midnight on September 11.
+* Feb 7: Last day for students to DROP without a grade of “W”.  Students drop using Titan Online.
+* Feb 22: Last day the Math Department will be flexible on the approval of late withdrawal requests.  Beginning Monday, October 8, students must have a serious and compelling reason for withdrawing (e.g. medical reason) and must provide supporting documentation for their reason.
+* April 22: Last day to withdraw with a truly serious and compelling reason that is clearly beyond the student’s control.  Students must document their reason.  See Math Department for more info.
+	
+**Class Calendar:**
+	
+* Week 1: Introduction and Getting Started
+* Week 2: Descriptive Statistics and Data Visualization
+* Week 3: Regression Modeling
+* Week 4: Regression Modeling
+* Week 5: Probability and Random Sequences 
+* Week 6: Exam 1 Review, Exam 1
+* Week 7: Intro to Inference
+* Week 8: Bootstapping Confidence Intervals
+* Week 9: Inference for Categorical Data
+* Week 10: Inference for Categorical Data
+* Week 11: Inference for Numerical Data
+* Week 12: Inference for Numerical Data
+* Week 13: Exam 2 Review, Exam 2
+* Week 14: Inference for Regression Models
+* Week 15: Final Project Reports
+* Week 16: Final Projects Due
+
+	
+[IMPORTANT UNIVERSITY INFORMATION AND STUDENT POLICIES](http://itwebstg.fullerton.edu/FDC/teaching/syllabus.php)
+	
+Use the link above for important information on 
+
+* Students with Special Needs 
+* Academic Dishonesty Policy
+* Emergency Preparedness 
+* Library Support 
+* Final Exams Schedule
+* University Learning Goals (Undergraduate, Graduate, and General Education)
+* Degree Program Learning Outcomes
+
+**Disclaimer:** This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. However, the professor reserves the right to modify, supplement and make changes as the course needs arise.
+	
