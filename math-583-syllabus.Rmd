@@ -1,15 +1,16 @@
 ---
 title: "Math 583 - Studies in Statistics"
-knit: (function(input_file, encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-author: "Todd CadwalladerOlsker"
-date: "*Last updated:* `r Sys.Date()`"
+runningheader: "Math 583 Syllabus" # only for pdf output
+subtitle: "Syllabus" # only for html output
+date: "`r Sys.Date()`"
+mainfont: Libertinus Sans
 output:
-  rmdformats::downcute:
-    downcute_theme: "chaos"
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_html: 
+    tufte_variant: "envisioned"
+link-citations: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -25,12 +26,11 @@ Spring 2022, Math 583 Section 1, Schedule \#19010
 
 **Course Information**
 
+
 * Course Times: TuTh 4:00-5:15pm
 * Professor: Todd CadwalladerOlsker 
 * Email: <tcadwall@fullerton.edu>
 * Office Hours: TuTh 2:15-3:45pm, or by appointment.
-
-		
 * For the first two weeks, we will meet on Zoom (Meeting ID: 89585149305).
 * When we are able to meet in-person, we will meet in MH-390. Please bring a laptop, as we will be working with statistical software extensively. If you cannot bring a laptop to class, let me know and I will make arrangements for a laptop to be available for your use in class.
 	
