@@ -44,7 +44,7 @@ Spring 2022, Math 583 Section 1, Schedule \#19010
 
 * [High School Statistics Common Core Standards](http://www.corestandards.org/Math/Content/HSS/introduction/)
 * [Guidelines for Assessment and Instruction in Statistics Education (GAISE)](https://www.amstat.org/asa/education/Guidelines-for-Assessment-and-Instruction-in-Statistics-Education-Reports.aspx)
-* [Tutorial: Getting Started with R and RStudio](https://www.amstat.org/asa/education/Guidelines-for-Assessment-and-Instruction-in-Statistics-Education-Reports.aspx)
+* [Tutorial: Getting Started with R and RStudio](https://www.dataquest.io/blog/tutorial-getting-started-with-r-and-rstudio/)
 * [Another R tutorial](https://www.w3schools.com/r/default.asp)
 
 	\bigskip
